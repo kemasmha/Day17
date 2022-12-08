@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+}
+#navbar {
+  display: flex;
+  background-color: black;
+  color: bisque;
+  justify-content: space-between;
+}
+#navbar div div {
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+#navbar div :hover {
+  background-color: azure;
+  -webkit-text-fill-color: black;
+}
+#text {
+  display: grid;
+  background-color: white;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 800px;
+}
+#title h2 {
+  font-size: 36pt;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(187, 144, 187);
+}
+#title p {
+  font-size: 15pt;
+  text-align: center;
+  margin-top: -2.5%;
+}
+
+#paragraph {
+  font-size: 18pt;
+  margin-right: 0%;
+  margin-left: 40%;
+  text-align: center;
+  background-color: rgb(187, 144, 187);
+}
+#content {
+  display: grid;
+  text-align: center;
+  margin: 0 auto;
+}
+#header {
+  font-size: 36pt;
+  margin-top: 30px;
+}
+#member {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.ganjil {
+  justify-content: left;
+  text-align: left;
+  margin-left: 10%;
+}
+.ganjil-text {
+  justify-content: right;
+  text-align: left;
+  margin-top: 20%;
+  font-size: 24pt;
+  background-color: rgb(187, 144, 187);
+}
+.genap {
+  justify-content: right;
+  text-align: right;
+  margin-right: 10%;
+}
+.genap-text {
+  justify-content: left;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 0%;
+  font-size: 24pt;
+  background-color: rgb(187, 144, 187);
+}
+#footer {
+  display: flexbox;
+  justify-content: space-around;
+}
